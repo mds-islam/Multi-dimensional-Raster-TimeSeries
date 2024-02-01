@@ -1,16 +1,16 @@
 # Time Series Data Extract from Multi-dimensional Raster Dataset for Statistical Analysis
 
-#About the project:
+1. Background of the project:
 
 These scripts contain the algorithms to evaluate BETHY/DLR model outputs (GPP & NPP) against the outputs of other process-based ecosystem models (LPJ-GUESS and CASA). I created these scripts using Python during my internship project at the German Aerospace Agency (DLR). At DLR, I worked with the second version of the BETHY/DLR ecosystem model's outputs to evaluate the model performance. This task contributed to the ongoing updating process of the model before releasing its second version's data.
 
-#Multi-dimensional raster data:
+2. Multi-dimensional raster data:
 
 Multi-dimensional raster data contains spatial and temporal dimensions for every variable. The standard data formats for multi-dimensional rasters are NetCDF and HDF. The "xarray" and "rioxarray" Python libraries are used to process these raster data types. The "rioxarray" is built on top of "xarray" library integrating "rasterio" library.
 
 A layer of sample points has been created using systematic random sampling over the study area to extract time series data for different sample points. The point layer is a KML file that underwent processing to match the spatial reference system of the raster layers.
 
-#Workflow
+3. Workflow: what can these codes do?
 
 These scripts contain the workflow from reading, stacking, temporal unit changes, reprojection of point features, extracting data from raster layers and storing in a tuple, performing statistical analysis (i.e., RMSE, r-square estimation), and plotting the time series data.
 
