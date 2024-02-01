@@ -14,6 +14,8 @@ A layer of sample points has been created using systematic random sampling over 
 
 These scripts contain the workflow from reading, stacking, temporal unit changes, reprojection of point features, extracting data from raster layers and storing in a tuple, performing statistical analysis (i.e., RMSE, r-square estimation), and plotting the time series data.
 
+Are you curious to learn about my internship project? You can read the report from "InternReport_Saiful_s6048943".
+
 ![pt3](https://github.com/mds-islam/Multi-dimensional-Raster-TimeSeries/assets/158111120/84e06dc7-1b94-4fee-974e-4c0813be7b7b)
 
 Figure: Comparison between GPP from BETHY/DLR and LPJ-GUESS models (Lon: 5.34E, Lat: 44.29N).
